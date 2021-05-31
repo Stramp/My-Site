@@ -4,7 +4,8 @@ export default {
     gutter: '2.2rem'
   },
   border: {
-    radius: '9.9rem'
+    radius: '9.9rem',
+    radiusBtn: '2.5rem'
   },
   font: {
     family: "'Poppins'",
