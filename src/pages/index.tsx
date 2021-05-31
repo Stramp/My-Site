@@ -3,7 +3,8 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
-import Section from 'components/Section'
+import Menu from 'components/Menu'
+
 import Btn from 'components/Btn'
 
 export default function Home() {
@@ -11,8 +12,7 @@ export default function Home() {
   console.log('text.current', text.current)
   return (
     <div>
-      <Section ref={text} id="teste" />
-      <Section id="teste2" />
+      <Menu />
       <Btn />
     </div>
   )
