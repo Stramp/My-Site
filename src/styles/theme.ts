@@ -4,10 +4,10 @@ export default {
     gutter: '2.2rem'
   },
   border: {
-    radius: '0.5rem'
+    radius: '9.9rem'
   },
   font: {
-    family: "'Nunito'",
+    family: "'Poppins'",
     normal: 400,
     semiBold: 600,
     bold: 700,
@@ -25,7 +25,7 @@ export default {
     }
   },
   colors: {
-    primary: '#000',
+    primary: '#709C3F',
     secondary: '#F8475F',
     mainBg: '#fff',
     white: '#fff',
@@ -36,7 +36,8 @@ export default {
     gray3: '#BFBFBF',
     gray4: '#BDBDBD',
     gray5: '#7A7A7A',
-    gray6: '#585858'
+    gray6: '#585858',
+    primaryText: '#666'
   },
   spacings: {
     xxsmall: '0.8rem',
