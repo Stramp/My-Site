@@ -1,10 +1,10 @@
 import { renderWithTheme } from 'utils/tests/helpers'
 
-import Section from '.'
+import SocialMedia from '.'
 
-describe('<Section />', () => {
+describe('<SocialMedia />', () => {
   it('should render element', () => {
-    const { container } = renderWithTheme(<Section />)
+    const { container } = renderWithTheme(<SocialMedia />)
 
     expect(container.firstChild).toBeInTheDocument()
   })

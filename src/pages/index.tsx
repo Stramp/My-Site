@@ -6,6 +6,7 @@ gsap.registerPlugin(ScrollTrigger)
 import Menu from 'components/Menu'
 
 import Btn from 'components/Btn'
+import SocialMedia from 'components/SocialMedia'
 
 export default function Home() {
   const text = useRef<HTMLHeadingElement>(null)
@@ -14,6 +15,7 @@ export default function Home() {
     <div>
       <Menu />
       <Btn />
+      <SocialMedia />
     </div>
   )
 }

@@ -23,7 +23,7 @@ export const Box = styled.button<ButtonProps>`
       width: ${size === 'slim' ? '1.6rem' : '2.4rem'};
       height: ${size === 'slim' ? '1.6rem' : '2.4rem'};
       background-image: url("${ico}");
-      margin-right:${theme.spacings.xxsmall}; ;
+      margin-right:${theme.spacings.xxsmall};
     }
   `}
 `
