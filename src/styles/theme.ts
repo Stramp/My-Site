@@ -4,7 +4,8 @@ export default {
     gutter: '2.2rem'
   },
   border: {
-    radius: '0.5rem'
+    radius: '0.5rem',
+    radiusBtn: '2.5rem'
   },
   font: {
     family: "'Nunito'",
