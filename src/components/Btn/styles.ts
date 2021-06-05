@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 import { ButtonProps } from './index'
 
 export const Box = styled.button<ButtonProps>`
-  ${({ theme, color, size, ico }) => css`
+  ${({ theme, color, size }) => css`
     width: 21.6rem;
     height: ${size === 'slim' ? '3.4rem' : '4.1rem'};
     border: none;
@@ -18,12 +18,8 @@ export const Box = styled.button<ButtonProps>`
     line-height: 11px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    &:before {
-      content: '';
-      width: ${size === 'slim' ? '1.6rem' : '2.4rem'};
-      height: ${size === 'slim' ? '1.6rem' : '2.4rem'};
-      background-image: url("${ico}");
-      margin-right:${theme.spacings.xxsmall};
+    svg {
+      width: 1.4rem;
     }
   `}
 `
