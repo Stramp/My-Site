@@ -20,6 +20,7 @@ export const Box = styled.button<ButtonProps>`
     text-transform: uppercase;
     svg {
       width: 1.4rem;
+      margin-right: ${theme.spacings.xxsmall};
     }
   `}
 `
