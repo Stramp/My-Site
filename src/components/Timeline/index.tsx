@@ -1,3 +1,5 @@
+import DateIco from 'components/icos/DateIco'
+import InstituIco from 'components/icos/InstituIco'
 import * as S from './styles'
 
 const listEducation = [
@@ -7,7 +9,7 @@ const listEducation = [
     initDate: 'Fev 2004',
     endDate: 'Fev 2004',
     description:
-      'Projeto meu site profissional, curriculum, fotos, historo, projetos Projeto meu site profissional, curriculum, fotos, historico, projetos  Projeto meu site profissional, curriculum, fotos, historico, projetos '
+      'Projeto meu site profissional, curriculum, fotosprofissional, curriculum, fotos, historico, projetos '
   },
   {
     title: 'Ciencias da comptação2',
@@ -15,7 +17,7 @@ const listEducation = [
     initDate: 'Fev 2004',
     endDate: 'Fev 2004',
     description:
-      'Projeto meu site profissional, curriculum, fotos, historo, projetos Projeto meu site profissional, curriculum, fotos, historico, projetos  Projeto meu site profissional, curriculum, fotos, historico, projetos '
+      'Projeto meu site profissional, profissional, curriculum, fotos, historico, projetos  Projeto meu site profissional, curriculum, fotos, historico, projetos '
   }
 ]
 
@@ -32,12 +34,18 @@ const Card = ({
       <div className="body">
         <h4>{title}</h4>
         <div className="institu">
-          <i></i>
+          <i>
+            <InstituIco />
+          </i>
           <span>{institu}</span>
         </div>
         <div className="date">
-          <i></i>
-          <span>{initDate}</span> - <span>{endDate}</span>
+          <i>
+            <DateIco />
+          </i>
+          <span>
+            {initDate} - {endDate}
+          </span>
         </div>
         <div className="description">{description}</div>
       </div>

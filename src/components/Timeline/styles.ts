@@ -22,6 +22,12 @@ export const Card = styled.article`
     position: relative;
     right: 0.6rem;
     display: flex;
+    i {
+      margin-right: calc(${theme.spacings.xxsmall}/2);
+      width:1.1rem;
+      height:1.1rem;
+      color: ${theme.colors.primaryText}
+    }
     .indicate {
       display: flex;
       align-items: center;
@@ -72,6 +78,10 @@ export const Card = styled.article`
       margin-bottom: ${theme.spacings.xxsmall};
     }
     div {
+      &.institu, &.date{
+        align-items: center;
+        display: flex;
+      }
       span {
         font-weight: 300;
         font-size: 10px;
